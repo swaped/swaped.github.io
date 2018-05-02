@@ -2,6 +2,8 @@
 <head>
     <title>Sample Page</title>
     <script type="text/javascript" src="https://cdn.scribblelive.com/modules/sidebarsdk/sidebarsdk.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <style type="text/css">
         
         body 
@@ -128,6 +130,12 @@
 </head>
 <body>
     <div id="IframeContent">
+	  <div>
+		  <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
+			  <p>SIMPLE DRAGGABLE OBJECT</p>
+		  </div>
+			  
+	    </div>
         <ul>
             <li>
                 <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
