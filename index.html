@@ -1,6 +1,10 @@
-<script type="text/javascript" src="https://cdn.scribblelive.com/modules/sidebarsdk/sidebarsdk.js"></script>
-<style>
-            body 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample Page</title>
+    <script type="text/javascript" src="http://cdn.scribblelive.com/modules/sidebarsdk/sidebarsdk.js"></script>
+    <style type="text/css">
+        
+        body 
         {
             margin: 0;    
         }
@@ -92,6 +96,7 @@
             {
                 display: block;
             }
+
         #IframeContent div.actions a {
             border: 1px solid #DDD;
             border-radius: 3px;
@@ -119,16 +124,55 @@
         {
             color: #4D4D4D;
         }
-
-</style>
-<div id="IframeContent">
-    <h1>RCM messages que</h1>
-        <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
-        <div class="fixed">
-            <p>I'am a scribble draggable object</p>
-        </div>
+    </style>
+</head>
+<body>
+    <div id="IframeContent">
+        <ul>
+            <li>
+                <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
+                    <iframe width="230" scrolling="no" height="114" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" allowtransparency="true" src="http://vds.rightster.com/v/01z0xt1ux2qxrx?target=iframe&amp;color2=0x006CC9&amp;color3=0xFFFFFF&amp;showiconarticle=0&amp;autoplay=0" id="videoframe"></iframe>
+                    <div class="Caption">itn video</div>
+				    <span class="Meta">
+					    <em class="ByLine">by 123 video</em>
+					    <span class="Source"> itn </span>
+					    <span class="Date">Feb 16, 2013</span>
+				    </span>
+			    </div>
+            </li>
+            <li>
+                <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
+                    <img src="http://i2.cdn.turner.com/cnn/dam/assets/130311172703-01-conclave-monday-horizontal-gallery.jpg"/>
+                    <div class="Caption">caption</div>
+				    <span class="Meta">
+					    <em class="ByLine">by Andrey</em>
+                        <span class="Source"> CNN </span>
+					    <span class="Date">Feb 16, 2013</span>
+				    </span>
+			    </div>
+            </li>
+            <li>
+                <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
+                    <iframe width="230" height="114" src="http://www.youtube.com/embed/C_hqVkix6Xo" frameborder="0" allowfullscreen></iframe>
+                    <div class="Caption">youtube video</div>
+				    <span class="Meta">
+					    <em class="ByLine">by 1320video</em>
+					    <span class="Source"> YouTube </span>
+					    <span class="Date">Feb 16, 2013</span>
+				    </span>
+			    </div>
+            </li>
+            <li>
+                <div onmousedown="return SCRIBBLE.lib.Library.Drag(event,this);" onmouseover="SCRIBBLE.lib.Library.MouseOverAction(this);" class="Helper">
+                    <div class="Content">WASHINGTON - Demand for long-lasting manufactured goods surged in February, suggesting factory activity continued to expand at a moderate pace, even though a gauge of planned business spending slipped.</div>
+                    <span class="Meta">
+					    <em class="ByLine">by Reuters Author</em>
+					    <span class="Source"> Reuters </span>
+					    <span class="Date">Mar 16, 2013</span>
+				    </span>
+                </div>
+            </li>
+        </ul>
     </div>
-</div>
-<script>
-  console.log('loaded from github');
-</script>
+</body>
+</html>
